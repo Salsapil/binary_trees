@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "snippets": "plaintext",
+        "__node_handle": "c",
+        "binary_trees.h": "c"
+    }
+}
