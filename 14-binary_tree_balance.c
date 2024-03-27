@@ -22,10 +22,15 @@ size_t binary_tree_heightz(const binary_tree_t *tree)
 	else
 		return (rDepth);
 }
-
+/**
+ * binary_tree_balance - mesures the balance
+ * @tree: binary tree
+ * Return: int
+ */
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	int l, r;
+
 	if (tree == NULL)
 		return (0);
 	l = binary_tree_heightz(tree->left);
