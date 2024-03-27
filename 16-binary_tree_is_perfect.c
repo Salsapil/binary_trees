@@ -22,7 +22,7 @@ size_t binary_tree_heightz(const binary_tree_t *tree)
 		return (rDepth);
 }
 /**
- * binary_tree_balance - mesures the balance
+ * binary_tree_balancez - mesures the balance
  * @tree: binary tree
  * Return: int
  */
@@ -51,11 +51,16 @@ int binary_tree_is_fullz(const binary_tree_t *tree)
 		return (1);
 
 	if ((tree->left) && (tree->right))
-		return (binary_tree_is_fullz(tree->left) && binary_tree_is_fullz(tree->right));
+		return (binary_tree_is_fullz(tree->left) &&
+		binary_tree_is_fullz(tree->right));
 
 	return (0);
 }
-
+/**
+ * binary_tree_is_perfect - check if binary ttree is perfect
+ * @tree: tree to check
+ * Return: 0 or 1
+*/
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree == NULL)
