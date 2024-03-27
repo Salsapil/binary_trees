@@ -64,5 +64,5 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
-	return (binary_tree_balancez(tree) == 0 && binary_tree_is_fullz(tree));
+	return (binary_tree_balancez(tree) && binary_tree_is_fullz(tree));
 }
