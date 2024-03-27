@@ -34,7 +34,7 @@ int binary_tree_balancez(const binary_tree_t *tree)
 		return (0);
 	l = binary_tree_heightz(tree->left);
 	r = binary_tree_heightz(tree->right);
-	return (l - r);
+	return (l - r != 0);
 }
 
 /**
@@ -46,13 +46,12 @@ int binary_tree_is_fullz(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
-
 	if (tree->left == NULL && tree->right == NULL)
 		return (1);
 
 	if ((tree->left) && (tree->right))
 		return (binary_tree_is_fullz(tree->left) &&
-		binary_tree_is_fullz(tree->right));
+				binary_tree_is_fullz(tree->right));
 
 	return (0);
 }
@@ -60,7 +59,7 @@ int binary_tree_is_fullz(const binary_tree_t *tree)
  * binary_tree_is_perfect - check if binary ttree is perfect
  * @tree: tree to check
  * Return: 0 or 1
-*/
+ */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree == NULL)
