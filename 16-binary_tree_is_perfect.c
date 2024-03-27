@@ -4,9 +4,9 @@
 /**
  * binary_tree_sizez - mesures the size
  * @tree: binary tree
- * Return: size_t
+ * Return: int
  */
-size_t binary_tree_sizez(const binary_tree_t *tree)
+int binary_tree_sizez(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
@@ -17,9 +17,9 @@ size_t binary_tree_sizez(const binary_tree_t *tree)
 /**
  * binary_tree_heightz - mesures the height
  * @tree: binary tree
- * Return: size_t
+ * Return: int
  */
-size_t binary_tree_heightz(const binary_tree_t *tree)
+int binary_tree_heightz(const binary_tree_t *tree)
 {
 	int lDepth = 0, rDepth = 0;
 
