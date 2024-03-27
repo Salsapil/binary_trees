@@ -34,7 +34,7 @@ int binary_tree_balancez(const binary_tree_t *tree)
 		return (0);
 	l = binary_tree_heightz(tree->left);
 	r = binary_tree_heightz(tree->right);
-	return (l - r != 0);
+	return (l == r);
 }
 
 /**
