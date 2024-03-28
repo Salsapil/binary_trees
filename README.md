@@ -27,3 +27,7 @@
 - **Full Binary Tree:** Every node has either zero or two children.   
 - **Perfect Binary Tree:** A full binary tree where all leaves are at the same depth.   
 - **Balanced Binary Tree:** The height of the tree is roughly proportional to the logarithm of the number of nodes.   
+***
+## Authors
+**Shenouda Mikhael**
+**Salsabil Ahmed**
