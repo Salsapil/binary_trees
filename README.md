@@ -8,4 +8,13 @@
 - The value of a node is less than all values in its right subtree.   
 - This ordering allows for efficient searching and sorting operations.   
 ***
- 
+### What is the possible gain in terms of time complexity compared to linked lists?   
+- **In a linked list**, you need to traverse potentially the entire list to find a specific value, resulting in an average time complexity of O(n).   
+- **In a BST**, you can leverage the ordering property to narrow down the search path. In the average case, searching a BST takes O(log n) time (logarithmic).   
+***
+### What are the depth, the height, the size of a binary tree?   
+- **Depth (of a node):** The number of edges from that node to the root node. The root node has a depth of 0.   
+- **Height (of a binary tree):** The maximum depth of any node in the tree. An empty tree has a height of -1.   
+- **Size (of a binary tree):** The total number of nodes in the tree.   
+***
+
