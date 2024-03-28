@@ -23,7 +23,7 @@
 - **Postorder Traversal:** Visits the left subtree, then the right subtree, then the root.   
 ***
 ### What is a complete, a full, a perfect, a balanced binary tree?
-**Complete Binary Tree:** Every level except possibly the last is completely filled, and all nodes in the last level are as far left as possible.   
-**Full Binary Tree:** Every node has either zero or two children.   
-**Perfect Binary Tree:** A full binary tree where all leaves are at the same depth.   
-**Balanced Binary Tree:** The height of the tree is roughly proportional to the logarithm of the number of nodes.   
+- **Complete Binary Tree:** Every level except possibly the last is completely filled, and all nodes in the last level are as far left as possible.   
+- **Full Binary Tree:** Every node has either zero or two children.   
+- **Perfect Binary Tree:** A full binary tree where all leaves are at the same depth.   
+- **Balanced Binary Tree:** The height of the tree is roughly proportional to the logarithm of the number of nodes.   
