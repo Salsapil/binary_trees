@@ -17,4 +17,13 @@
 - **Height (of a binary tree):** The maximum depth of any node in the tree. An empty tree has a height of -1.   
 - **Size (of a binary tree):** The total number of nodes in the tree.   
 ***
-
+### What are the different traversal methods to go through a binary tree?
+- **Inorder Traversal:** Visits nodes in the left subtree, then the root, then the right subtree.   
+- **Preorder Traversal:** Visits the root, then the left subtree, then the right subtree.   
+- **Postorder Traversal:** Visits the left subtree, then the right subtree, then the root.   
+***
+### What is a complete, a full, a perfect, a balanced binary tree?
+**Complete Binary Tree:** Every level except possibly the last is completely filled, and all nodes in the last level are as far left as possible.   
+**Full Binary Tree:** Every node has either zero or two children.   
+**Perfect Binary Tree:** A full binary tree where all leaves are at the same depth.   
+**Balanced Binary Tree:** The height of the tree is roughly proportional to the logarithm of the number of nodes.   
