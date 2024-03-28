@@ -29,5 +29,5 @@
 - **Balanced Binary Tree:** The height of the tree is roughly proportional to the logarithm of the number of nodes.   
 ***
 ## Authors
-**Shenouda Mikhael**
-**Salsabil Ahmed**
+- **Shenouda Mikhael**   
+- **Salsabil Ahmed**
